@@ -148,7 +148,7 @@ tibble(lon, lat) %>%
 
 `parallel = TRUE`とすることで並列化により、実行速度が早くなるかもしれません。
 
-```{r}
+```{r, eval = FALSE}
 lonlat2name(lon, lat, shape = japan, target = "df", parallel = TRUE)
 ```
 
